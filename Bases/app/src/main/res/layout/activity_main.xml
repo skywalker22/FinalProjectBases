@@ -40,7 +40,8 @@
             android:backgroundTint="#FFFFFF"
             android:autoText="false"
             android:editable="false"
-            android:background="@android:color/white"/>
+            android:background="@android:color/white"
+            />
 
         <EditText
             android:id="@+id/editTextPassword"

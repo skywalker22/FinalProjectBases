@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             finish();
 
             // and open profile activity
-            startActivity(new Intent(getApplicationContext(), BioActivity.class));
+            startActivity(new Intent(getApplicationContext(), CallActivity.class));
         }
 
 
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //checking if success
                         if(task.isSuccessful()){
                             finish();
-                            startActivity(new Intent(getApplicationContext(), BioActivity.class));
+                            startActivity(new Intent(getApplicationContext(), CallActivity.class));
                         }else{
                             //display some message here
                             Toast.makeText(MainActivity.this,"Registration Error",Toast.LENGTH_LONG).show();

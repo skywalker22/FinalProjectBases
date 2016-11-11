@@ -1,15 +1,21 @@
 package com.jacksonmix.android.aca.afinal;
 
+import java.util.List;
+
+import retrofit2.Call;
 import retrofit2.http.GET;
 
 /**
  * Created by mixja on 11/9/16.
  */
-public class FantasyDataCall {
+public interface FantasyDataCall {
 
     //make API call in this class
 
-    @GET(???api_key=d4138992818862af0f3937856d5a44e7")
-    Call</////> getPlayerBio();
+    //put mlb key in 'api_key=' (already did)
+
+    @GET("mlb/v2/JSON/Players")
+    Call<List<Player>> getPlayerBio();
+
 
 }

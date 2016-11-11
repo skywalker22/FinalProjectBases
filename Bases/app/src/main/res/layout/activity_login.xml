@@ -22,8 +22,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="User Login"
-            android:id="@+id/textView"
+            android:text="User Signup"
+            android:id="@+id/textViewSignup"
             android:layout_gravity="center_horizontal"
             android:textColor="#FFFFFF"
             android:textStyle="bold"/>
@@ -53,22 +53,12 @@
             android:background="@android:color/white"/>
 
         <Button
-            android:id="@+id/buttonSignin"
+            android:id="@+id/buttonSignup"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_margin="15dp"
-            android:text="Sign In"
+            android:text="Sign Up"
             android:background="@drawable/backgroundwood"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:text="Do not have an account? Signup Here"
-            android:id="@+id/textViewSignUp"
-            android:textAlignment="center"
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#FFFFFF"
             android:textStyle="bold"/>
 
 
