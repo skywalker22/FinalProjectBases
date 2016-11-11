@@ -15,6 +15,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class CallActivity extends AppCompatActivity {
 
+
+
+    /*
     mRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
     mAdapter = new MoviesAdapter(this);
     mRecyclerView.setAdapter(mAdapter);
